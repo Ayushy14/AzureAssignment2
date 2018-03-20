@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "ayushy"
+    },
+    "dnsNameForPublicIP": {
+      "value": "ayushy1"
+    },
+    "windowsOSVersion": {
+      "value": "2012-R2-Datacenter"
+    },
+    "sizeOfDataDiskInGB": {
+      "value": 10
+    },
+    "DSC-VMDCUpdateTagVersion": {
+      "value": "2.0"
+    },
+    "FQDomainName": {
+      "value": "ayushy1.local"
+    }
+
+  }
+}
